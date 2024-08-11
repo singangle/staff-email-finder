@@ -4,8 +4,15 @@
     font-style: normal;
   }
 
-  .anton-regular {
+.anton-regular {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+    }
+
+ .raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}

@@ -108,7 +108,7 @@ formatted_time = time.strftime('%Y/%m/%d/%H:%M', current_time_struct)
 repo = git.Repo(r'C:\Users\hh415\Desktop\code\staff-email-finder')
 repo.index.add(['all_teachers_info.json'])
 repo.index.commit(f'Updated name & email list. Timestamp: {formatted_time} Singapore time')
-print(f'\n Updated name & email list. Timestamp: {formatted_time} Singapore time')
+print(f'\nUpdated name & email list. Timestamp: {formatted_time} Singapore time')
 
 origin = repo.remotes.origin
 origin.push()

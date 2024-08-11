@@ -12,8 +12,10 @@
     /* background-color: #477bff; */
     color: #fff;
     margin-bottom: 2rem;
-    padding: 2rem 2rem;
+    margin-right: 1px;
+    padding: 1px 30px;
     text-align: center;
+    padding-right: 1px;
 }
 
 h2 {
