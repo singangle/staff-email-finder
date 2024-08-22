@@ -11,16 +11,12 @@
 .header {
     /* background-color: #477bff; */
     color: #fff;
-    margin-bottom: 2rem;
-    margin-right: 1px;
-    padding: 1px 30px;
-    text-align: center;
-    padding-right: 1px;
+    width: auto;
+    padding: 1em;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
     text-align: center;
 }
 
@@ -56,15 +52,49 @@ h2 {
 .inline-image {
     display: inline-block;
     vertical-align: top;
-    width: auto; /* Adjust as needed */
-    height: 6em; /* Adjust as needed */
+    width: auto;
+    height: 6em;
 }
 
 .top-bar{
     width: 100%;
     display: flex;
-    align-items: center; /* 垂直居中 */
-    justify-content: center;
+    align-items: center;
     padding: 10px;
 }
 
+@media (min-width: 300px) and (max-width: 991px) {
+    .display-sm-20px {
+        font-size: 20px; /* 等效于 display-1 */
+    }
+}
+
+@media (min-width: 992px) {
+    .display-lg-42px {
+        font-size: 42px;
+    }
+}
+
+@media (min-width: 992px) {
+    .display-lg-3 {
+        font-size: 38.4px;
+    }
+}
+
+@media (min-width: 992px) {
+    .display-lg-25px {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+    .display-sm-15px {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+    .display-sm-22px {
+        font-size: 22px;
+    }
+}
