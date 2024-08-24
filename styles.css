@@ -23,7 +23,7 @@ h2 {
 .container {
     display: flex;
     padding-bottom: 1rem;
-    width: 30rem;
+    width: 450px;
     position: absolute;
     bottom: 0;
 }
@@ -38,7 +38,7 @@ h2 {
 
 .container a {
     text-decoration: none;
-    color: #019547
+    color: #FFFFFF;
 }
 
 .container a:hover {
@@ -65,8 +65,8 @@ h2 {
     padding: 10px;
 }
 
-@media (min-width: 300px) and (max-width: 991px) {
-    .display-sm-20px {
+@media (min-width: 552px) and (max-width: 991px) {
+    .display-md-20px {
         font-size: 20px; /* 等效于 display-1 */
     }
 }
@@ -74,6 +74,7 @@ h2 {
 @media (min-width: 992px) {
     .display-lg-42px {
         font-size: 42px;
+        line-height: 40px
     }
 }
 
@@ -89,14 +90,32 @@ h2 {
     }
 }
 
-@media (min-width: 300px) and (max-width: 991px) {
-    .display-sm-15px {
-        font-size: 15px;
+@media (max-width: 551px) {
+    .display-sm-20px {
+        font-size: 20px;
+        line-height: 30px
     }
 }
 
-@media (min-width: 300px) and (max-width: 991px) {
-    .display-sm-22px {
-        font-size: 22px;
+@media (min-width: 552px) and (max-width: 991px) {
+    .display-md-30px {
+        font-size: 30px;
     }
+}
+
+@media (max-width: 551px) {
+    .display-sm-17px {
+        font-size: 17px;
+        line-height: 20px
+    }
+}
+
+.tab-div{
+    background-color: #008fa0;
+    padding: 0.4rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    font-size: 15px
 }
