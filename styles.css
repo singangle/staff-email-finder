@@ -22,19 +22,21 @@ h2 {
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    padding-bottom: 1rem;
+    width: 30rem;
     position: absolute;
     bottom: 0;
-    flex-direction: row;
-    padding-bottom: 1rem;
+}
 
-
+.outer-container {
+    display: flex;
+    justify-content: center;  /* 水平居中 */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .container a {
-    margin-right: 1rem;
-    margin-left: 1rem;
     text-decoration: none;
     color: #019547
 }
