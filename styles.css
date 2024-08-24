@@ -15,9 +15,6 @@
     padding: 1em;
 }
 
-.top-left {
-    text-align: left;
-}
 h2 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -46,13 +43,18 @@ h2 {
     text-decoration: underline;
 }
 
+.top-left {
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
 .inline-image {
     display: inline-block;
     vertical-align: top;
     width: auto;
     height: 6em;
 }
-
 
 .top-bar{
     width: 100%;
