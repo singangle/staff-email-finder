@@ -29,9 +29,10 @@ h2 {
 .outer-container {
     display: flex;
     justify-content: center;  /* 水平居中 */
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #ffdf82
 }
 
 .container a {
@@ -130,4 +131,26 @@ h2 {
     align-items: center;
     height: 2rem;
     font-size: 15px
+}
+
+@media (max-width: 1000px) {
+    .display-max-1000-300 {
+         width: 300px;
+         height: auto;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .display-min-1000-300 {
+         width: 30%;
+         height: auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .display-min-1400-420 {
+         width: 420px;
+         height: auto;
+    }
 }
