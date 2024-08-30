@@ -155,6 +155,18 @@ h2 {
     }
 }
 
+@media (max-width: 386px) {
+    .display-386-40px {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 387px) {
+    .display-387-50px {
+        font-size: 50px;
+    }
+}
+
 .vertical-center {
   margin: auto;
   position: absolute;
@@ -164,7 +176,6 @@ h2 {
 }
 
 .center {
-  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
