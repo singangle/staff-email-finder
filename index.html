@@ -25,33 +25,39 @@
         <script type="text/javascript" src="javascript.js"></script>
 
     </head>
-    <body>
+    <body style="background-color: #ffdf82">
 
         <div class="top-bar d-flex justify-content-between" style='background-color: #019547; height: 8em; width: 100%'>
             <header class='display-lg-42px display-md-30px display-sm-20px top-left header anton-regular'>
                 What's their email?
             </header>
             <div class="ml-auto d-flex align-items-center">
-                <h4 class="raleway display-lg-25px display-md-20px display-sm-17px" style="color:white; margin: 0px">Free Website for Finding MSS staff Email</h4>
+                <h4 class="raleway display-lg-25px display-md-20px display-sm-12px" style="color:white; margin: 0px">Free Website for Finding MSS staff Email</h4>
                 <img src="./images/meridian_logo.png" alt="Meridian Logo" class="inline-image ">
             </div>
         </div>
 
-        <div class="container mt-5">
-            <!-- 创建一个下拉按钮 -->
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                Select a title
-                </button>
-              <!-- 下拉菜单内容 -->
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="#"  style="color: black">Mdm</a></li>
-                    <li><a class="dropdown-item" href="#"  style="color: black">Miss</a></li>
-                    <li><a class="dropdown-item" href="#"  style="color: black">Mr</a></li>
-                    <li><a class="dropdown-item" href="#"  style="color: black">Mrs</a></li>
-                    <li><a class="dropdown-item" href="#"  style="color: black">Ms</a></li>
-                </ul>
+        <div class="d-flex justify-content-between">
+            <div class="container mt-5">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    Select a title
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#"  style="color: black">Mdm</a></li>
+                        <li><a class="dropdown-item" href="#"  style="color: black">Miss</a></li>
+                        <li><a class="dropdown-item" href="#"  style="color: black">Mr</a></li>
+                        <li><a class="dropdown-item" href="#"  style="color: black">Mrs</a></li>
+                        <li><a class="dropdown-item" href="#"  style="color: black">Ms</a></li>
+                        <li><a class="dropdown-item" href="#"  style="color: black; font-weight: 900">ALL</a></li>
+                    </ul>
+                </div>
             </div>
+
+            <form class="vertical-center">
+                <input type="text" autofocus placeholder="Enter staff name" autocomplete="off">
+                <input type="submit" value="Submit">
+            </form>
         </div>
 
         <div class="outer-container">
