@@ -183,20 +183,9 @@ h2 {
   text-align: center;
 }
 
-@media (max-width: 576px) {
-    .responsive-input {
-      width: 100%;
-      margin-bottom: 10px;
+@media (max-width: 420px) {
+    #dropdownMenuButton {
+        width: 100px;
+        font-size: 12px
     }
-    .responsive-button {
-      width: 100%;
-    }
-  }
-
-  @media (min-width: 576px) {
-    .responsive-input {
-      flex: 1;
-    }
-    .responsive-button {
-      flex-shrink: 0;
-    }
+}
