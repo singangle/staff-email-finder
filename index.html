@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" style="background-color: #ffdf82">
+<html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
@@ -25,7 +25,7 @@
         <script type="text/javascript" src="javascript.js"></script>
 
     </head>
-    <body style="background-color: #ffdf82">
+    <body style="background-color: #ffdf82"> <!-- #ffdf82 -->
 
         <div class="top-bar d-flex justify-content-between" style='background-color: #019547; height: 8em; width: 100%'>
             <header class='display-lg-42px display-md-30px display-sm-20px top-left header anton-regular'>
@@ -37,25 +37,27 @@
             </div>
         </div>
 
-        <div class="d-flex col-12 col-sm-9 col-md-7 col-lg-6 col-xl-5 col-xxl-4 justify-content-around align-items-center" style="margin-left: auto; margin-right: auto; margin-top: 1.5em;">
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                    Select a title
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="#" style="color: black">Mdm</a></li>
-                    <li><a class="dropdown-item" href="#" style="color: black">Miss</a></li>
-                    <li><a class="dropdown-item" href="#" style="color: black">Mr</a></li>
-                    <li><a class="dropdown-item" href="#" style="color: black">Mrs</a></li>
-                    <li><a class="dropdown-item" href="#" style="color: black">Ms</a></li>
-                    <li><a class="dropdown-item" href="#" style="color: black; font-weight: 900">ALL</a></li>
-                </ul>
-            </div>
+        <div style="background-color: #ffdf82; padding-top: 1.5em;">
+            <div class="d-flex col-12 col-sm-9 col-md-7 col-lg-6 col-xl-5 col-xxl-4 justify-content-around align-items-center" style="margin: auto;">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        Select a title
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#" style="color: black">Mdm</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: black">Miss</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: black">Mr</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: black">Mrs</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: black">Ms</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: black; font-weight: 900">ALL</a></li>
+                    </ul>
+                </div>
 
-            <form id="form">
-                <input id="staffInput" type="text" autofocus placeholder="Enter staff name" autocomplete="off" class="form-control d-inline w-auto">
-                <button id="submitButton" class="btn btn-primary">Submit</button>
-            </form>
+                <form id="form">
+                    <input id="staffInput" type="text" autofocus placeholder="Enter staff name" autocomplete="off" class="form-control d-inline w-auto">
+                    <button id="submitButton" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
         </div>
 
 
