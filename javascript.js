@@ -26,13 +26,13 @@ function updateElements() {
         // Use innerHTML to update the input and button elements
         container.innerHTML = `
           <input id="staffInput" type="text" autofocus placeholder="Enter staff name" autocomplete="off" class="form-control d-inline w-auto" size="15">
-          <button id="submitButton" class="btn btn-primary" style="padding: 5px 10px; font-size: 10px;">Submit</button>
+          <button id="submitButton" class="btn btn-primary" style="padding: 5px 10px; font-size: 10px; background-color: #008fa0; border: none;">Submit</button>
         `;
       } else {
         // Revert the innerHTML back to the default (larger screen) state
         container.innerHTML = `
           <input id="staffInput" type="text" autofocus placeholder="Enter staff name" autocomplete="off" class="form-control d-inline w-auto">
-          <button id="submitButton" class="btn btn-primary">Submit</button>
+          <button id="submitButton" class="btn btn-primary" style="background-color: #008fa0; border: none;">Submit</button>
         `;
       }
     }
