@@ -189,3 +189,7 @@ h2 {
         font-size: 12px
     }
 }
+
+.thead-dark th{
+    color:#fff;background-color:#212529;border-color:#32383e
+}
