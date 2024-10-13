@@ -85,7 +85,7 @@
             </table>
         </div>
 
-        <div class="outer-container" style="height: 3em;">
+        <div class="outer-container" style="height: 4em;">
             <div class='container d-flex justify-content-between display-sm-0-75 align-items-center'>
                 <div class="tab-div">
                     <a href='declaration.html' class="display-sm-12px">Declaration</a>
@@ -159,7 +159,7 @@
                     row.innerHTML = `
                         <td>${teacher.name}</td>
                         <td>${teacher.designation}</td>
-                        <td><a href="mailto:${teacher.email}">${teacher.email}</a></td>
+                        <td><a href="mailto:${teacher.email}" style='color: #EB8100; font-weight: 900'>${teacher.email}</a></td>
                     `;
                     tbody.appendChild(row);
                 });
@@ -170,7 +170,7 @@
                     tbody.appendChild(row);
                 }
             }
-            
+
         </script>
     </body>
 </html>
