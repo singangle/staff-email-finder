@@ -30,7 +30,7 @@ h2 {
 .outer-container {
     display: flex;
     justify-content: center;  /* 水平居中 */
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #ffdf82
