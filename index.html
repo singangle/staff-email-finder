@@ -23,7 +23,6 @@
         <title>Find Their Email! - Homepage</title>
 
         <script type="text/javascript" src="javascript.js"></script>
-
         
     </head>
     <body style="background-color: #ffdf82"> <!-- #ffdf82 -->
@@ -32,7 +31,7 @@
             <header class='display-lg-42px display-md-30px display-sm-20px top-left header anton-regular'>
                 What's their email?
             </header>
-            <div class="ml-auto d-flex align-items-center">
+            <div class="ml-auto d-flex align-items-center" style="margin-right: 5vw;">
                 <h4 class="raleway display-lg-25px display-md-20px display-sm-12px" style="color:white; margin: 0px">Free Website for Finding MSS staff Email</h4>
                 <img src="./images/meridian_logo.png" alt="Meridian Logo" class="inline-image ">
             </div>
@@ -51,6 +50,7 @@
                         <li><a class="dropdown-item" href="#" style="color: black">Mrs</a></li>
                         <li><a class="dropdown-item" href="#" style="color: black">Ms</a></li>
                         <li><a class="dropdown-item" href="#" style="color: black; font-weight: 900">ALL</a></li>
+                        <li style="text-align: left; margin-left: 10px; font-size: 0.9em;"><a href="#" style="color: grey; text-decoration: none;">These are in alphabetical order</a></li>
                     </ul>
                 </div>
 
@@ -61,7 +61,7 @@
             </div>
         </div>
 
-        <div class="d-flex col-11 col-sm-9 col-md-7 col-lg-6" style="margin-left: auto; margin-right: auto; margin-top: 2em">
+        <div class="d-flex col-11 col-sm-9 col-md-7 col-lg-6" style="margin-left: auto; margin-right: auto; margin-top: 2em; margin-bottom: 2em;">
             <table class="table table-striped table-light table-hover">
                 <thead>
                     <tr>
@@ -85,8 +85,8 @@
             </table>
         </div>
 
-        <div class="outer-container">
-            <div class='container justify-content-between display-sm-0.75'>
+        <div class="outer-container" style="height: 3em;">
+            <div class='container d-flex justify-content-between display-sm-0-75 align-items-center'>
                 <div class="tab-div">
                     <a href='declaration.html' class="display-sm-12px">Declaration</a>
                 </div>
@@ -99,10 +99,78 @@
             </div>
         </div>
 
-        
         <script>
+
+            let dropdownItems = document.querySelectorAll('.dropdown-item');
+            let dropdownButton = document.getElementById('dropdownMenuButton');
+
+            document.addEventListener('DOMContentLoaded', function() {
+                let dropdownItems = document.querySelectorAll('.dropdown-item');
+                let dropdownButton = document.getElementById('dropdownMenuButton');
+
+                selectedTitle = 'ALL';
+                dropdownButton.innerHTML = '&nbsp;&nbsp;' + selectedTitle + '&nbsp;&nbsp;';
+
+                dropdownItems.forEach(item => {
+                    item.addEventListener('click', function() {
+                        selectedTitle = this.textContent.trim();
+                        dropdownButton.innerHTML = '&nbsp;&nbsp;' + selectedTitle + '&nbsp;&nbsp;';
+                    });
+                });
+            });
+
+            fetch('all_teachers_info.json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('submitButton').addEventListener('click', function(event) {
+                        event.preventDefault();
+                        const inputName = document.getElementById('staffInput').value.trim().toLowerCase();
+                        const filteredTeachers = filterTeachers(data, inputName, selectedTitle);
+                        updateTable(filteredTeachers);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching teacher data:', error);
+                });
+
+            function filterTeachers(teachersData, inputName, selectedTitle) {
+                const filtered = [];
+                const nameRegex = new RegExp(`[a-zA-Z]*${inputName}[a-zA-Z]*`, 'i');
+
+                for (let name in teachersData) {
+                    const [designation, email] = teachersData[name];
+                    if (nameRegex.test(name)) {
+                        if (selectedTitle === 'ALL' || name.startsWith(selectedTitle)) {
+                            filtered.push({ name, designation, email });
+                        }
+                    }
+                }
+                return filtered;
+            }
+
+            function updateTable(filteredTeachers) {
+                const tbody = document.querySelector('table tbody');
+                tbody.innerHTML = '';
+
+                filteredTeachers.sort((a, b) => a.name.localeCompare(b.name));
+
+                filteredTeachers.forEach(teacher => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${teacher.name}</td>
+                        <td>${teacher.designation}</td>
+                        <td><a href="mailto:${teacher.email}">${teacher.email}</a></td>
+                    `;
+                    tbody.appendChild(row);
+                });
+
+                if (filteredTeachers.length === 0) {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `<td colspan="3">No teachers found.</td>`;
+                    tbody.appendChild(row);
+                }
+            }
             
         </script>
-
     </body>
 </html>

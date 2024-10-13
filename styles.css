@@ -22,14 +22,15 @@ h2 {
 
 .container {
     display: flex;
-    padding-bottom: 1rem;
     width: 450px;
+    align-items: center;
+    margin: 0px;
 }
 
 .outer-container {
     display: flex;
     justify-content: center;  /* 水平居中 */
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: #ffdf82
@@ -116,7 +117,7 @@ h2 {
 }
 
 @media (max-width: 449px) {
-    .display-sm-0.75 {
+    .display-sm-0-75 {
          width: 75%;
     }
 }
