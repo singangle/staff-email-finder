@@ -140,6 +140,12 @@ h2 {
     }
 }
 
+@media (max-width: 350px) {
+    .display-sm-12px {
+        font-size: 9px;
+    }
+}
+
 @media (max-width: 551px) {
     .display-sm-12px {
         font-size: 12px;
@@ -147,8 +153,8 @@ h2 {
 }
 
 @media (max-width: 449px) {
-    .display-sm-0-75 {
-         width: 75%;
+    .display-sm-0-90 {
+         width: 90%;
     }
 }
 
