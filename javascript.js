@@ -126,4 +126,8 @@ function update_time(){
 
 window.addEventListener('resize', update_time);
 
- 
+document.getElementById('staffInput').addEventListener('click', function() {
+    setTimeout(() => {
+        this.focus();
+    }, 100);
+});
