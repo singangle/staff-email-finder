@@ -70,6 +70,16 @@ h2 {
     transform: scale(1.1);
 }
 
+#timestamp {
+    font-size: 0.8rem; 
+    width: 260px; 
+    background-color: #262020; 
+    border-radius: 10px; 
+    color: white; text-align: center; 
+    height: 20px; 
+    line-height: 20px;
+}
+
 @media (max-width: 660px) {
     .table td {
         word-wrap: break-word;
@@ -106,7 +116,7 @@ h2 {
 
 @media (min-width: 552px) and (max-width: 991px) {
     .display-md-20px {
-        font-size: 20px; /* 等效于 display-1 */
+        font-size: 20px;
     }
 }
 
@@ -166,6 +176,13 @@ h2 {
          width: 90%;
     }
 }
+
+@media (max-width: 370px) {
+    .display-sm-0-100 {
+         width: 100%;
+    }
+}
+
 
 @media (max-width: 1000px) {
     .display-max-1000-300 {
