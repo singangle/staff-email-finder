@@ -31,20 +31,16 @@ function updateElements() {
         let dropdownItems = document.querySelectorAll('.dropdown-item');
         let dropdownButton = document.getElementById('dropdownMenuButton');
 
-        // selectedTitle = 'ALL';
-        // dropdownButton.innerHTML = '&nbsp;&nbsp;' + selectedTitle + '&nbsp;&nbsp;';
+        TitleBeingSet = false;
 
         dropdownItems.forEach(item => {
             item.addEventListener('click', function() {
                 selectedTitle = this.textContent.trim();
                 dropdownButton.innerHTML = '&nbsp;&nbsp;' + selectedTitle + '&nbsp;&nbsp;';
+                TitleBeingSet = true;
             });
         });
     });
-
-    if (selectedTitle == 'undefined'){
-      selectedTitle = 'All'
-    }
 
     fetch('all_teachers_info.json')
         .then(response => response.json())
@@ -52,6 +48,13 @@ function updateElements() {
             document.getElementById('submitButton').addEventListener('click', function(event) {
                 event.preventDefault();
                 const inputName = document.getElementById('staffInput').value.trim().toLowerCase();
+
+                if (!TitleBeingSet) {
+                    selectedTitle = "ALL"
+                    let dropdownButton = document.getElementById('dropdownMenuButton');
+                    dropdownButton.innerHTML = '&nbsp;&nbsp;' + selectedTitle + '&nbsp;&nbsp;';
+                }
+
                 const filteredTeachers = filterTeachers(data, inputName, selectedTitle);
                 updateTable(filteredTeachers);
             });
@@ -98,7 +101,4 @@ function updateElements() {
         }
     }
 
-    if (window.innerWidth < 420){
-      const title_button = document.getElementById('dropdownMenuButton');
-      title_button.innerText = title_button.innerText.trim()
-    }
+ 

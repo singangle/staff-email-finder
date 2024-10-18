@@ -82,6 +82,7 @@ all_teachers_info.update(middle_managers_info)
 all_teachers_info.update(teacher_leaders_info)
 all_teachers_info.update(form_teachers_info)
 
+# check email addresses' legitimacy
 for value in all_teachers_info.values():
     if re.match(r"([-!#-'*+/-9=?A-Z^-~]+(\.[-!#-'*+/-9=?A-Z^-~]+)*|\"([]!#-[^-~ \t]|(\\[\t -~]))+\")@([-!#-'*+/-"
                 r"9=?A-Z^-~]+(\.[-!#-'*+/-9=?A-Z^-~]+)*|\[[\t -Z^-~]*])", str(value[1])):
@@ -103,12 +104,18 @@ print('Finished updating json file.')
 current_time_struct = time.localtime()
 formatted_time = time.strftime('%Y/%m/%d/%H:%M', current_time_struct)
 
+with open('timestamp.json', 'w') as t:
+    json.dump(formatted_time, t, indent=4)
+
+print("Finished updating timestamp")
+
 # ----------------------------------------------------------------------------------------------------------------------
 
 repo = git.Repo(r'C:\Users\hh415\Desktop\code\staff-email-finder')
 repo.index.add(['all_teachers_info.json'])
+repo.index.add(['timestamp.json'])
 repo.index.commit(f'Updated name & email list. Timestamp: {formatted_time} Singapore time')
-print(f'\nUpdated name & email list. Timestamp: {formatted_time} Singapore time')
+print(f'\nUpdated name & email list. Timestamp: {formatted_time} Singapore time\n')
 
 origin = repo.remotes.origin
 origin.push()
