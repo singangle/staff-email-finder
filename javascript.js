@@ -3,14 +3,25 @@
 function updateElements() {
       let button = document.getElementById('submitButton');
       let inputBox = document.getElementById('staffInput');
+      let inputBoxShrink = false
 
       if (window.innerWidth < 420) {
         button.style.padding = "5px 10px";
         button.style.fontSize = "10px";
       } 
 
-      if (window.innerWidth < 330) {
-        inputBox.setAttribute("size", "10")
+      if (window.innerWidth < 380) {
+        inputBoxShrink = true
+      }
+      else {
+        inputBoxShrink = false
+      }
+
+      if (inputBoxShrink) {
+        inputBox.setAttribute("size", "12")
+      }
+      else {
+        inputBox.setAttribute("size", "15")
       }
     }
 
