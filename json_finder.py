@@ -95,7 +95,7 @@ print('Finished combining four dictionaries.')
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-with open('json/all_teachers_info.json', 'w') as f:
+with open(r'C:\Users\hh415\Desktop\code\staff-email-finder\json\all_teachers_info.json', 'w') as f:
     json.dump(all_teachers_info, f, indent=4)
 
 print('Finished updating json file.')
@@ -105,7 +105,7 @@ print('Finished updating json file.')
 current_time_struct = time.localtime()
 formatted_time = time.strftime('%Y/%m/%d/%H:%M', current_time_struct)
 
-with open('json/timestamp.json', 'w') as t:
+with open(r'C:\Users\hh415\Desktop\code\staff-email-finder\json\timestamp.json', 'w') as t:
     json.dump(formatted_time, t, indent=4)
 
 print("Finished updating timestamp")
@@ -114,7 +114,7 @@ print("Finished updating timestamp")
 
 repo = git.Repo(r'C:\Users\hh415\Desktop\code\staff-email-finder')
 repo.index.add(['json/all_teachers_info.json'])
- (f'Updated name & email list. Timestamp: {formatted_time} Singapore time')
+print(f'Updated name & email list. Timestamp: {formatted_time} Singapore time')
 print(f'\nUpdated name & email list. Timestamp: {formatted_time} Singapore time\n')
 
 origin = repo.remotes.origin
