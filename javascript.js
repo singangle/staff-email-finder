@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-fetch('all_teachers_info.json')
+fetch('json/all_teachers_info.json')
     .then(response => response.json())
     .then(data => {
         document.getElementById('submitButton').addEventListener('click', function(event) {
@@ -68,7 +68,7 @@ fetch('all_teachers_info.json')
         console.error('Error fetching teacher data:', error);
     });
 
-fetch('timestamp.json')
+fetch('json/timestamp.json')
 .then(response => response.json())
 .then(data => {
     let timestamp = document.getElementById('timestamp');

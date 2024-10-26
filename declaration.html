@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en" style="background-color: #ffdf82">
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZR10NH1P2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-YZR10NH1P2');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Declaration</title>
@@ -50,7 +58,7 @@
       </div>
 
       <script>
-        fetch('disclaimer.json')
+        fetch('json/disclaimer.json')
             .then(response => response.json())
             .then(data => {
                 let disclaimer1 = document.getElementById('disclaimer1');
@@ -59,7 +67,7 @@
                 disclaimer2.innerHTML = data[1];
             });
 
-        fetch('acknowdgement.json')
+        fetch('json/acknowdgement.json')
         .then(response => response.json())
         .then(data => {
             let acknowdgement = document.getElementById('acknowdgement');
