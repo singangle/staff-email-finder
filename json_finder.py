@@ -26,6 +26,7 @@ school_leaders = etree.HTML(response1.content).xpath('//*[@id="main-content"]/se
 school_leaders_email = etree.HTML(response1.content).xpath('//*[@id="main-content"]/section[3]//td/a/text()')
 school_leaders_info = {}
 
+
 for i in range(0, len(school_leaders)):
     if i%2 == 0:
         school_leaders_info[school_leaders[i+1]] = [school_leaders[i], school_leaders_email[int(i/2)]]
@@ -113,8 +114,7 @@ print("Finished updating timestamp")
 
 repo = git.Repo(r'C:\Users\hh415\Desktop\code\staff-email-finder')
 repo.index.add(['json/all_teachers_info.json'])
-repo.index.add(['json/timestamp.json'])
-repo.index.commit(f'Updated name & email list. Timestamp: {formatted_time} Singapore time')
+ (f'Updated name & email list. Timestamp: {formatted_time} Singapore time')
 print(f'\nUpdated name & email list. Timestamp: {formatted_time} Singapore time\n')
 
 origin = repo.remotes.origin

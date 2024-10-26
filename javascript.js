@@ -1,29 +1,29 @@
 //Hello there! This website is developed by Anderson in October 2024!
 
 function updateElements() {
-      let button = document.getElementById('submitButton');
-      let inputBox = document.getElementById('staffInput');
-      let inputBoxShrink = false
+        let button = document.getElementById('submitButton');
+        let inputBox = document.getElementById('staffInput');
+        let inputBoxShrink = false
 
-      if (window.innerWidth < 420) {
-        button.style.padding = "5px 10px";
-        button.style.fontSize = "10px";
-      } 
+        if (window.innerWidth < 420) {
+            button.style.padding = "5px 10px";
+            button.style.fontSize = "10px";
+        } 
 
-      if (window.innerWidth < 380) {
-        inputBoxShrink = true
-      }
-      else {
-        inputBoxShrink = false
-      }
+        if (window.innerWidth < 380) {
+            inputBoxShrink = true
+        }
+        else {
+            inputBoxShrink = false
+        }
 
-      if (inputBoxShrink) {
-        inputBox.setAttribute("size", "12")
-      }
-      else {
-        inputBox.setAttribute("size", "15")
-      }
-    }
+        if (inputBoxShrink) {
+            inputBox.setAttribute("size", "12")
+        }
+        else {
+            inputBox.setAttribute("size", "15")
+        }
+        }
 
 document.addEventListener('DOMContentLoaded', updateElements);
 window.addEventListener('resize', updateElements);
