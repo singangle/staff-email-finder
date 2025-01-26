@@ -1,354 +1,358 @@
 {
-    "Mr Mohamed Razali B Abdul Hamed": [
-        "Principal",
+    "Principal": [
+        "Mr Mohamed Razali B Abdul Hamed",
         "mohamed_razali_abdul_hamed@moe.edu.sg"
     ],
-    "Mrs Rose Chen-Tay Ngee Seew": [
-        "Vice-Principal (Acad)",
-        "tay_ngee_seew@moe.edu.sg"
-    ],
-    "Ms Tan Li Ping": [
-        "Vice-Principal (Acad)",
+    "Vice-Principal (Acad)": [
+        "Ms Tan Li Ping",
         "tan_li_ping_b@moe.edu.sg"
     ],
-    "Mr Kong Mun Heng": [
-        "Vice-Principal (Admin)",
-        "kong_mun_heng@moe.edu.sg"
+    "Administration Manager": [
+        "Mr Han Cheng Kwang",
+        "han_cheng_kwang_a@moe.edu.sg"
     ],
-    "Mr Halim Bin Hassan": [
-        "Admin Manager",
-        "halim_hassan@moe.edu.sg"
-    ],
-    "Mr Sam Meng Chong": [
-        "Operations Manager",
-        "sam_meng_chong@moe.edu.sg"
-    ],
-    "Mr Chandramohan Arumugam": [
-        "Operations Manager",
+    "Operations Manager": [
+        "Mr Chandramohan Arumugam",
         "chandramohan_arumugam@moe.edu.sg"
     ],
-    "Mdm Sitinorzahurin Bte Sudin": [
-        "Year Head (Sec 2 and 3)",
+    "Year Head": [
+        "Mdm Sitinorzahurin Bte Sudin",
         "sitinorzahurin_sudin@moe.edu.sg"
     ],
-    "Mr Anwar B Omar": [
-        "Year Head (Sec 1, 4 and 5)",
-        "anwar_b_omar@moe.edu.sg"
-    ],
-    "Ms Norita Ali": [
-        "School Staff Developer",
-        "norita_ali@moe.edu.sg"
-    ],
-    "Ms Ong Yin Yin": [
-        "HOD Aesthetics",
-        "ong_yin_yin@moe.edu.sg"
-    ],
-    "Mdm Norul Ashiqin Bte Rashid": [
-        "HOD Character and Citizenship Education",
-        "norul_ashiqin_rashid@moe.edu.sg"
-    ],
-    "Ms Lin I-Ju Yvonne": [
-        "HOD English Language & Literature",
-        "lin_i_ju@moe.edu.sg"
-    ],
-    "Ms Noraidah A Rahim": [
-        "HOD Humanities",
-        "noraidah_a_rahim@moe.edu.sg"
-    ],
-    "Mr Lee Kwok Wei": [
-        "HOD ICT",
-        "lee_kwok_wei@moe.edu.sg"
-    ],
-    "Mr Loo Liat Siang": [
-        "HOD Mathematics",
-        "loo_liat_siang@moe.edu.sg"
-    ],
-    "Mr Tang Jui Piow": [
-        "HOD Mother Tongue Language",
-        "tang_jui_piow@moe.edu.sg"
-    ],
-    "Miss Tan Bee Ling": [
-        "HOD Science",
-        "tan_bee_ling@moe.edu.sg"
-    ],
-    "Mr Muhammad Khaliq S/O Mohamed Saleem": [
-        "HOD Student Management",
-        "muhammad_khaliq_mohamed_saleem@moe.edu.sg"
-    ],
-    "Mr Quaide Millath": [
-        "SH PE/CCA (Covering HOD PE/CCA)",
-        "quaide_millath@moe.edu.sg"
-    ],
-    "Mr Boon Jun Hao Joel": [
-        "SH Chemistry",
-        "boon_jun_hao_joel@moe.edu.sg"
-    ],
-    "Mrs Koh-Lee Y-Lyn Wendy": [
-        "4E3 FT",
-        "lee_y-lyn_wendy@moe.edu.sg"
-    ],
-    "Ms Moon Jia Yuan": [
-        "4E3 FT",
-        "moon_jia_yuan@moe.edu.sg"
-    ],
-    "Mdm Norazisza Bte Mohamed Taib": [
-        "4E4 FT",
-        "norazisza_mohamed_taib@moe.edu.sg"
-    ],
-    "Ms Ong Swee Lian Amy": [
-        "4E2 FT",
-        "ong_swee_lian_amy@moe.edu.sg"
-    ],
-    "Miss Jasmin Tan Jiemin": [
-        "SH Student Leadership",
-        "jasmin_tan_jiemin@moe.edu.sg"
-    ],
-    "Ms Kahbini Raj": [
-        "LH Student Management",
-        "kahbini_raj@moe.edu.sg"
-    ],
-    "Ms Ida Murni Ismail": [
-        "SH Student Well-Being",
-        "ida_murni_ismail@moe.edu.sg"
-    ],
-    "Miss Tan Hock Kiang Belinda": [
-        "2-5 FT",
-        "tan_hock_kiang@moe.edu.sg"
-    ],
-    "Ms Lee Su Yin Rosalind": [
-        "LT / English Language",
-        "lee_su_yin_rosalind@moe.edu.sg"
-    ],
-    "Mdm Norharyati Bte Hassan": [
-        "LT / History",
-        "norharyati_hassan@moe.edu.sg"
-    ],
-    "Ms Tham Wai Mun Evonne": [
-        "4E3 FT",
-        "tham_wai_mun_evonne@moe.edu.sg"
-    ],
-    "Mdm Jamilah Sukimi": [
-        "1-4 FT",
-        "jamilah_sukimi@moe.edu.sg"
-    ],
-    "Mdm Noraishah Bte Mostapa": [
-        "4T1 FT",
-        "noraishah_mostapha@moe.edu.sg"
-    ],
-    "Mr Cheang Cheng Guan Geoffrey": [
-        "1-2 FT",
-        "cheang_cheng_guan_geoffrey@moe.edu.sg"
-    ],
-    "Miss Fong Pui Theng Ritina": [
-        "5A1 FT",
-        "fong_pui_theng_ritina@moe.edu.sg"
-    ],
-    "Mrs Yvonne Chng": [
-        "ST / CCE (Covering)",
-        "ng_ee_hong_yvonne@moe.edu.sg"
-    ],
-    "Mdm Siti Zaidah Bte Abas": [
-        "1-1 FT",
-        "siti_zaidah_abas@moe.edu.sg"
-    ],
-    "Mr Teo Kang Zheng, Ernest": [
-        "1-1 FT",
-        "teo_kang_zheng_ernest@moe.edu.sg"
-    ],
-    "Miss Jow Li Yan": [
-        "1-2 FT",
-        "jow_li_yan@moe.edu.sg"
-    ],
-    "Mr Toh Choon Gee, Justin": [
-        "1-3 FT",
-        "toh_choon_gee_justin@moe.edu.sg"
-    ],
-    "Mdm Wang Dan": [
-        "1-3 FT",
-        "wang_dan_a@moe.edu.sg"
-    ],
-    "Mrs Wan \u2013 Lim Lan Hiang Elene": [
-        "1-4 FT",
-        "lim_lan_hiang@moe.edu.sg"
-    ],
-    "Mdm Teng Xiuling": [
-        "1-4 FT",
-        "teng_xiuling@moe.edu.sg"
-    ],
-    "Mr Lee Lea Khoon": [
-        "1-5 FT",
-        "lee_lea_khoon@moe.edu.sg"
-    ],
-    "Mdm Norzalina Bte Bohari": [
-        "1-5 FT",
-        "norzalina_bohari@moe.edu.sg"
-    ],
-    "Miss Phang Yan See": [
-        "1-6 FT",
-        "phang_yan_see@moe.edu.sg"
-    ],
-    "Mr Tiah Tao Koon": [
-        "1-6 FT",
-        "tiah_tao_koon@moe.edu.sg"
-    ],
-    "Miss Chen Yi-Chun": [
-        "1-7 FT",
-        "chen_yi-chun@moe.edu.sg"
-    ],
-    "Mdm Zaidah Bte Mohd": [
-        "1-7 FT",
-        "zaidah_mohd@moe.edu.sg"
-    ],
-    "Miss Astri Nur Rissa Binte Abdul Razak": [
-        "2-1 FT",
-        "astri_nur_rissa_abdul_razak@moe.edu.sg"
-    ],
-    "Mdm Suriati Binte Samat": [
-        "2-1 FT",
-        "suriati_samat@moe.edu.sg"
-    ],
-    "Mdm Ng Ee Hong Yvonne": [
-        "2-2 FT",
-        "ng_ee_hong_yvonne@moe.edu.sg"
-    ],
-    "Mr Zaid Rudy Bin Mohamad Taib": [
-        "2-2 FT",
-        "zaid_rudy_mohamad_taib@moe.edu.sg"
-    ],
-    "Mr Tay Zhi Yong": [
-        "2-3 FT",
-        "tay_zhi_yong@moe.edu.sg"
-    ],
-    "Mdm Yuslina Bte Mohamed Salleh": [
-        "2-3 FT",
-        "yuslina_mohamed_salleh@moe.edu.sg"
-    ],
-    "Mr Chris Poh Wei Khim": [
-        "2-4 FT",
-        "poh_wei_khim_chris@moe.edu.sg"
-    ],
-    "Mr Mohamed Faisal Bin Mohamed Hussain": [
-        "2-4 FT",
-        "mohamed_faisal_mohamed_hussain@moe.edu.sg"
-    ],
-    "Miss Lee Fong Ting Veronica": [
-        "2-5 FT",
-        "lee_fong_ting@moe.edu.sg"
-    ],
-    "Mr Mei Yung Jian Joe": [
-        "2-6 FT",
-        "mei_yung_jian_joe@moe.edu.sg"
-    ],
-    "Miss Shervonne Yeo Xin Ting": [
-        "2-6 FT",
-        "shervonne_yeo_xin_ting@moe.edu.sg"
-    ],
-    "Ms Nur Hafizah Binte Mokzi": [
-        "2-7 FT",
+    "School Staff Developer": [
+        "Ms Loo Min Yan, Vanessa",
         ""
     ],
-    "Mr Teo Wei Yang": [
-        "2-7 FT",
-        "teo_wei_yang@moe.edu.sg"
+    "HOD / Aesthetics": [
+        "Ms Ong Yin Yin",
+        "ong_yin_yin@moe.edu.sg"
     ],
-    "Ms Marini Bte Hassan": [
-        "3E1 FT",
-        "marini_hassan@moe.edu.sg"
+    "HOD / Character and Citizenship Education": [
+        "Mdm Norul Ashiqin Bte Rashid",
+        "norul_ashiqin_rashid@moe.edu.sg"
     ],
-    "Ms Quek Ser Hwee": [
-        "3E1 FT",
-        "quek_ser_hwee@moe.edu.sg"
+    "HOD / English Language and Literature": [
+        "Ms Lin I-Ju, Yvonne",
+        "lin_i_ju@moe.edu.sg"
     ],
-    "Ms Eng Siam Ngeng Carol": [
-        "3E2 FT",
-        "eng_siam_ngeng@moe.edu.sg"
+    "HOD / Humanities": [
+        "Ms Noraidah A Rahim",
+        "noraidah_a_rahim@moe.edu.sg"
     ],
-    "Mr Low Kok Hua Jeffrey": [
-        "3E2 FT",
-        "low_kok_hua@moe.edu.sg"
+    "HOD / Mathematics": [
+        "Mr Loo Liat Siang",
+        "loo_liat_siang@moe.edu.sg"
     ],
-    "Mdm Dewi Haryanti Binte Hussein": [
-        "3E3 FT",
-        "dewi_haryanti_hussein@moe.edu.sg"
+    "HOD / Mother Tongue Language": [
+        "Mr Tang Jui Piow",
+        "tang_jui_piow@moe.edu.sg"
     ],
-    "Ms Selvi D/O Varathappan": [
-        "3E3 FT",
-        "selvi_varathappan@moe.edu.sg"
+    "HOD / Science": [
+        "Ms Tan Bee Ling",
+        "tan_bee_ling@moe.edu.sg"
     ],
-    "Ms Nuradila Binte Osman": [
-        "3E4 FT",
-        "nuradila_osman@moe.edu.sg"
+    "HOD / Student Management": [
+        "Mr Nirav Mahendrakumar Desai",
+        "nirav_m_desai@moe.edu.sg"
     ],
-    "Mdm Teo Yee Hoon": [
-        "3E4 FT",
-        "teo_yee_hoon@moe.edu.sg"
+    "HOD / Physical Education/ Co-curricular Activities": [
+        "Mr Quaide Millath",
+        "quaide_millath@moe.edu.sg"
     ],
-    "Mdm Choo Wui Kee Vicki": [
-        "3A1 FT",
-        "choo_wui_kee@moe.edu.sg"
-    ],
-    "Miss Lim Zhi Qi Joanne": [
-        "3A1 FT",
-        "lim_zhi_qi@moe.edu.sg"
-    ],
-    "Mr Cheong Kim Gin": [
-        "3A2 FT",
-        "cheong_kim_gin@moe.edu.sg"
-    ],
-    "Miss Syafiqah Binte Md Anuar": [
-        "3A2 FT",
-        "syafiqah_md_anuar@moe.edu.sg"
-    ],
-    "Ms Dhanya Magadevan": [
-        "3T1 FT",
-        "dhanya_magadevan@moe.edu.sg"
-    ],
-    "Mr Wong Ling Guan James": [
-        "3T1 FT",
-        "wong_ling_guan@moe.edu.sg"
-    ],
-    "Mdm Ng Yi Qing": [
-        "4E1 FT",
-        "ng_yi_qing@moe.edu.sg"
-    ],
-    "Mr Tan Toong Wuay": [
-        "4E1 FT",
-        "tan_toong_wuay@moe.edu.sg"
-    ],
-    "Mr Chan Yew Ming Adam": [
-        "4E2 FT",
-        "chan_yew_ming_adam@moe.edu.sg"
-    ],
-    "Mrs Sarala Thiyagarajan": [
-        "4E2 FT",
-        "sarala_thiyagarajan@moe.edu.sg"
-    ],
-    "Mr Chou Cher Hoong": [
-        "4E4 FT",
-        "chou_cher_hoong@moe.edu.sg"
-    ],
-    "Mdm Dawn Huisi Santa Maria": [
-        "4A1 FT",
-        "dawn_santa_maria@moe.edu.sg"
-    ],
-    "Mdm Yu Wei": [
-        "4A1 FT",
-        "yu_wei@moe.edu.sg"
-    ],
-    "Mr Boon Jun Hao, Joel": [
-        "4A2 FT",
+    "SH / Chemistry": [
+        "Mr Boon Jun hao, Joel",
         "boon_jun_hao_joel@moe.edu.sg"
     ],
-    "Mdm Sahrul Bahriah Bte Mohamed Taib": [
-        "4A2 FT",
-        "sahrul_bahriah_mohamed_taib@moe.edu.sg"
+    "SH / Student Well-Being": [
+        "Mdm Ida Murni Ismail",
+        "ida_murni_ismail@moe.edu.sg"
     ],
-    "Mr Wee Sin Hock Brian": [
-        "4T1 FT",
+    "SH / Design and Technology": [
+        "Ms Koh-Lee Y-Lyn, Wendy",
+        "lee_y-lyn_wendy@moe.edu.sg"
+    ],
+    "SH / English Language": [
+        "Ms Moon Jia Yuan",
+        "moon_jia_yuan@moe.edu.sg"
+    ],
+    "SH / Malay Language": [
+        "Mdm Norazisza Bte Mohamed Taib",
+        "norazisza_mohamed_taib@moe.edu.sg"
+    ],
+    "SH / Student Leadership": [
+        "Ms Tan Jiemin, Jasmin",
+        "jasmin_tan_jiemin@moe.edu.sg"
+    ],
+    "SH / Information and Communication Technology (Covering)": [
+        "Ms Tan Hock Kiang, Belinda",
+        "tan_hock_kiang@moe.edu.sg"
+    ],
+    "LH / Student Management": [
+        "Mdm Kahbini Raj",
+        "kahbini_raj@moe.edu.sg"
+    ],
+    "LT / English Language": [
+        "Ms Lee Su Yin Rosalind",
+        "lee_su_yin_rosalind@moe.edu.sg"
+    ],
+    "LT / History": [
+        "Mdm Norharyati Bte Hassan",
+        "norharyati_hassan@moe.edu.sg"
+    ],
+    "ST / English Language": [
+        "Ms Tham Wai Mun, Evonne",
+        "tham_wai_mun_evonne@moe.edu.sg"
+    ],
+    "ST / Geography": [
+        "Mdm Jamilah Sukimi",
+        "jamilah_sukimi@moe.edu.sg"
+    ],
+    "ST / Malay Language": [
+        "Mdm Noraishah Bte Mostapa",
+        "noraishah_mostapa@moe.edu.sg"
+    ],
+    "ST / Mathematics": [
+        "Ms Fong Pui Theng, Ritina",
+        "fong_pui_theng_ritina@moe.edu.sg"
+    ],
+    "ST / Character and Citizenship Education": [
+        "Mrs Yvonne Chng",
+        "ng_ee_hong_yvonne@moe.edu.sg"
+    ],
+    "1-1 FT 0": [
+        "Miss Veronica Lee Fong Ting ",
+        "lee_fong_ting@moe.edu.sg"
+    ],
+    "1-1 FT 1": [
+        "Mr Boon Jun Hao, Joel ",
+        "boon_jun_hao_joel@moe.edu.sg"
+    ],
+    "1-2 FT 2": [
+        "Mr Mei Yung Jian Joe ",
+        "mei_yung_jian_joe@moe.edu.sg"
+    ],
+    "1-2 FT 3": [
+        "Ms Jasmin Tan Jiemin ",
+        "jasmin_tan_jiemin@moe.edu.sg"
+    ],
+    "1-3 FT 4": [
+        "Ms Ng Yi Qing ",
+        "ng_yi_qing@moe.edu.sg"
+    ],
+    "1-3 FT 5": [
+        "Ms Karen Tao Lok Sum ",
+        "karen_tao_lok_sum_a@moe.edu.sg"
+    ],
+    "1-4 FT 6": [
+        "Miss Astri Nur Rissa Binte Abdul Razak ",
+        "astri_nur_rissa_razak@moe.edu.sg"
+    ],
+    "1-4 FT 7": [
+        "Mdm Yu Wei ",
+        "yu_wei@moe.edu.sg"
+    ],
+    "1-5 FT 8": [
+        "Mr Chan Yew Ming Adam ",
+        "chan_yew_ming_adam@moe.edu.sg"
+    ],
+    "1-6 FT 9": [
+        "Miss Tham Wai Mun Evonne ",
+        "tham_wai_mun_evonne@moe.edu.sg"
+    ],
+    "1-6 FT 10": [
+        "Mr Wee Sin Hock Brian ",
         "wee_sin_hock_brian@moe.edu.sg"
     ],
-    "Mdm Ida Murni Bte Ismail": [
-        "5A1 FT",
+    "1-7 FT 11": [
+        "Mdm Noraishah Bte Mostapa ",
+        "noraishah_mostapa@moe.edu.sg"
+    ],
+    "1-7 FT 12": [
+        "Mr Tan Toong Wuay ",
+        "tan_toong_wuay@moe.edu.sg"
+    ],
+    "1-8 FT 13": [
+        "Miss Fong Pui Theng Ritina ",
+        "fong_pui_theng_ritina@moe.edu.sg"
+    ],
+    "1-8 FT 14": [
+        "Mdm Norazisza Bte Mohd Taib ",
+        "norazisza_mohamed_taib@moe.edu.sg"
+    ],
+    "2-1 FT 15": [
+        "Mr Teo Kang Zheng, Ernest ",
+        "teo_kang_zheng_ernest@moe.edu.sg"
+    ],
+    "2-1 FT 16": [
+        "Mdm Siti Zaidah Bte Abas ",
+        "siti_zaidah_abas@moe.edu.sg"
+    ],
+    "2-2 FT 17": [
+        "Miss Jow Li Yan ",
+        "jow_li_yan@moe.edu.sg"
+    ],
+    "2-2 FT 18": [
+        "Mr Cheang Cheng Guan Geoffrey ",
+        "cheang_cheng_guan_geoffrey@moe.edu.sg"
+    ],
+    "2-3 FT 19": [
+        "Mdm Wang Dan ",
+        "wang_dan_a@moe.edu.sg"
+    ],
+    "2-3 FT 20": [
+        "Mr Toh Choon Gee Justin ",
+        "toh_choon_gee_justin@moe.edu.sg"
+    ],
+    "2-4 FT 21": [
+        "Mdm Teng Xiu Ling ",
+        "teng_xiuling@moe.edu.sg"
+    ],
+    "2-4 FT 22": [
+        "Mdm Ida Murni Bte Ismail ",
         "ida_murni_ismail@moe.edu.sg"
+    ],
+    "2-5 FT 23": [
+        "Mdm Norzalina Bte Bohari ",
+        "norzalina_bohari@moe.edu.sg"
+    ],
+    "2-5 FT 24": [
+        "Mr Lee Lea Khoon ",
+        "lee_lea_khoon@moe.edu.sg"
+    ],
+    "2-6 FT 25": [
+        "Mr Vaahidalisha S/O Pakiri Muhammad ",
+        "vaahidalisha_muhammad@moe.edu.sg"
+    ],
+    "2-6 FT 26": [
+        "Mdm Dewi Haryanti Binte Hussein ",
+        "dewi_haryanti_hussein@moe.edu.sg"
+    ],
+    "2-7 FT 27": [
+        "Miss Chen Yi-Chun ",
+        "chen_yi-chun@moe.edu.sg"
+    ],
+    "2-7 FT 28": [
+        "Mdm Zaidah Bte Mohd ",
+        "zaidah_mohd@moe.edu.sg"
+    ],
+    "3-1 FT 29": [
+        "Mdm Suriati Binte Samat ",
+        "suriatie_abdul_samat@moe.edu.sg"
+    ],
+    "3-1 FT 30": [
+        "Mr Joel Chew Chong Wei ",
+        "joel_chew_chong_wei@moe.edu.sg"
+    ],
+    "3-2 FT 31": [
+        "Mdm Ng Ee Hong Yvonne ",
+        "ng_ee_hong_yvonne@moe.edu.sg"
+    ],
+    "3-2 FT 32": [
+        "Mr Zaid Rudy Bin Mohamad Taib ",
+        "zaid_rudy_mohamad_taib@moe.edu.sg"
+    ],
+    "3-3 FT 33": [
+        "Mr Tay Zhi Yong ",
+        "tay_zhiyong@moe.edu.sg"
+    ],
+    "3-3 FT 34": [
+        "Mr Tan Siang Guan ",
+        "tan_siang_guan@moe.edu.sg"
+    ],
+    "3-4 FT 35": [
+        "Mr Mohamed Faisal B Mohamed Hussain ",
+        "mohamed_faisal_mohamed_hussain@moe.edu.sg"
+    ],
+    "3-4 FT 36": [
+        "Mr Chris Poh Wei Khim ",
+        "poh_wei_khim_chris@moe.edu.sg"
+    ],
+    "3-5 FT 37": [
+        "Mdm Jamilah Sukimi ",
+        "jamilah_sukimi@moe.edu.sg"
+    ],
+    "3-5 FT 38": [
+        "Mr Lim Xin Rui ",
+        "lim_xin_rui_d@moe.edu.sg"
+    ],
+    "3-5 FT 39": [
+        "Ms Tan Hock Kiang Belinda ",
+        "tan_hock_kiang@moe.edu.sg"
+    ],
+    "3-6 FT 40": [
+        "Miss Shervonne Yeo Xin Ting ",
+        "shervonne_yeo_xin_ting@moe.edu.sg"
+    ],
+    "3-6 FT 41": [
+        "Mdm Nur Hafizah Binte Mokzi ",
+        "nur_hafizah_mokzi@moe.edu.sg"
+    ],
+    "3-7 FT 42": [
+        "Mr Teo Wei Yang ",
+        "teo_wei_yang@moe.edu.sg"
+    ],
+    "3-7 FT 43": [
+        "Mdm Kiew Lynn ",
+        "kiew_lynn@moe.edu.sg"
+    ],
+    "4E1 FT 44": [
+        "Ms Quek Ser Hwee ",
+        "quek_ser_hwee@moe.edu.sg"
+    ],
+    "4E1 FT 45": [
+        "Mdm Marini Bte Hassan ",
+        "marini_hassan@moe.edu.sg"
+    ],
+    "4E2 FT 46": [
+        "Mr Low Kok Hua Jeffrey ",
+        "low_kok_wah_jeffrey@moe.edu.sg"
+    ],
+    "4E2 FT 47": [
+        "Ms Carol Eng ",
+        "eng_siam_ngeng@moe.edu.sg"
+    ],
+    "4E3 FT 48": [
+        "Miss Selvi D/O Varathappan ",
+        "selvi_varathappan@moe.edu.sg"
+    ],
+    "4E3 FT 49": [
+        "Ms Moon Jia Yuan ",
+        "moon_jia_yuan@moe.edu.sg"
+    ],
+    "4E4 FT 50": [
+        "Mdm Teo Yee Hoon ",
+        "teo_yee_hoon@moe.edu.sg"
+    ],
+    "4E4 FT 51": [
+        "Miss Nuradila bte Osman ",
+        "nuradila_osman@moe.edu.sg"
+    ],
+    "4A1 FT 52": [
+        "Miss Lim Zhi Qi Joanne ",
+        "lim_zhi_qi@moe.edu.sg"
+    ],
+    "4A1 FT 53": [
+        "Mdm Choo Wui Kee Vicki ",
+        "choo_wui_kee@moe.edu.sg"
+    ],
+    "4A2 FT 54": [
+        "Miss Syafiqah Md Anuar ",
+        "syafiqah_md_anuar@moe.edu.sg"
+    ],
+    "4A2 FT 55": [
+        "Mr Cheong Kim Gin ",
+        "cheong_kim_gin@moe.edu.sg"
+    ],
+    "4T1 FT 56": [
+        "Mrs Sarala Thiyagarajan ",
+        "sarala_thiyagarajan@moe.edu.sg"
+    ],
+    "4T1 FT 57": [
+        "Ms Lee Y- Lyn Wendy ",
+        "lee_y-lyn_wendy@moe.edu.sg"
+    ],
+    "5A1 FT 58": [
+        "Mr Chou Cher Hoong ",
+        "chou_cher_hoong@moe.edu.sg"
     ]
 }
