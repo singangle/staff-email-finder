@@ -83,11 +83,21 @@ function filterTeachers(teachersData, inputName, selectedTitle) {
     const filtered = [];
     const nameRegex = new RegExp(`[a-zA-Z]*${inputName}[a-zA-Z]*`, 'i');
 
-    for (let name in teachersData) {
-        const [designation, email] = teachersData[name];
-        if (nameRegex.test(name)) {
+    // for (let name in teachersData) {
+    //     const [designation, email] = teachersData[name];
+    //     if (nameRegex.test(name)) {
+    //         if (selectedTitle === 'ALL' || name.startsWith(selectedTitle)) {
+    //             filtered.push({ name, designation, email });
+    //         }
+    //     }
+    // }
+    // return filtered;  (this is old logic of 2024. The structure of all_teachers_info has changed. 2025.1.27)
+
+    for (let designation in teachersData) {
+        const [name, email] = teachersData[designation];
+        if (nameRegex.test(name.replace(/^\w+\s/, ''))) {
             if (selectedTitle === 'ALL' || name.startsWith(selectedTitle)) {
-                filtered.push({ name, designation, email });
+                filtered.push({ designation, name, email });
             }
         }
     }

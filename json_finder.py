@@ -174,8 +174,9 @@ print("Finished updating timestamp")
 
 repo = git.Repo(r'C:\Users\hh415\Desktop\cs_projects\staff-email-finder')
 repo.index.add(['json/all_teachers_info.json'])
-print(f'Updated name & email list. Timestamp: {formatted_time} Singapore time')
-print(f'\nUpdated name & email list. Timestamp: {formatted_time} Singapore time\n')
+repo.index.add(['json/timestamp.json'])
 
 origin = repo.remotes.origin
 origin.push()
+
+print(f'\nUpdated name & email list. Timestamp: {formatted_time} Singapore time\n')
