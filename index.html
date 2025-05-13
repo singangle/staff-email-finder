@@ -1,118 +1,129 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZR10NH1P2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-YZR10NH1P2');
-        </script>
-        <!-- https://analytics.google.com/analytics/web/#/p464937929/realtime/overview here to check website traffic. Use liuzian514@gmail.com to login -->
-         <!-- https://analytics.google.com/analytics/web/#/p464937929/realtime/overview?params=_u..nav%3Dmaui -->
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <meta name="description" content="Free website for finding MSS staff's email">
-        <meta name="author" content="Anderson Liu Zian">
-
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-        <link href="styles.css" rel="stylesheet">
-        <link href="fonts.css" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="favicon.ico?">
-        <title>Find Their Email! - Homepage</title>
-
-        <script type="text/javascript" src="javascript.js"></script>
-        
-        
-    </head>
-    <body style="background-color: #ffdf82"> <!-- #ffdf82 -->
-
-        <div class="top-bar d-flex justify-content-between" style='background-color: #019547; height: 8em; width: 100%'>
-            <header class='display-lg-42px display-md-30px display-sm-20px top-left header anton-regular'>
-                What's their email?
-            </header>
-            <div class="ml-auto d-flex align-items-center" style="margin-right: 3vw;">
-                <h4 class="raleway display-lg-25px display-md-20px display-sm-12px" style="color:white; margin: 0px">Free Website for Finding MSS Staff Emails</h4>
-                <a href="https://www.meridiansec.moe.edu.sg/about-us/our-organization/our-school-leaders/" target="_blank" class="hover-img">
-                    <img src="./images/meridian_logo.png" alt="Meridian Logo" class="inline-image ">
-                </a>
-            </div>
-        </div>
-
-        <div style="background-color: #ffdf82; padding-top: 3em;">
-            <div class="d-flex col-12 col-sm-9 col-md-7 col-lg-6 col-xl-5 col-xxl-4 justify-content-around align-items-center" style="margin: auto;">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                        Select a title
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="#" style="color: black">Mdm</a></li>
-                        <li><a class="dropdown-item" href="#" style="color: black">Miss</a></li>
-                        <li><a class="dropdown-item" href="#" style="color: black">Mr</a></li>
-                        <li><a class="dropdown-item" href="#" style="color: black">Mrs</a></li>
-                        <li><a class="dropdown-item" href="#" style="color: black">Ms</a></li>
-                        <li><a class="dropdown-item" href="#" style="color: black; font-weight: 900">ALL</a></li>
-                        <li style="text-align: left; margin-left: 10px; font-size: 0.9em;"><a href="#" style="color: grey; text-decoration: none;">These are in alphabetical order</a></li>
-                    </ul>
-                </div>
-
-                <form id="form">
-                    <input id="staffInput" type="text" autofocus placeholder="Enter staff name" autocomplete="off" class="form-control d-inline w-auto">
-                    <button id="submitButton" class="btn btn-primary" style="background-color: #008fa0; border: none;">Submit</button>
-                </form>
-            </div>
-        </div>
-
-        <div class="d-flex col-11 col-sm-9 col-md-7 col-lg-6" id="table-div" style="margin-left: auto; margin-right: auto; margin-top: 2em; margin-bottom: 0px;">
-            <table class="table table-striped table-light table-hover">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Designation</th>
-                        <th>Email</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="height: 40px" >
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr style="height: 40px">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <h6 id="timestamp"></h6>
-
-        <div class="outer-container">
-            <div class='container d-flex justify-content-between display-sm-0-90 display-sm-0-100 align-items-center'>
-                <div class="tab-div">
-                    <a href='declaration.html' class="display-sm-12px">Declaration</a>
-                </div>
-                <div class="tab-div">
-                    <a href='contact_author.html' class="display-sm-12px">Contact Author</a>
-                </div>
-                <div class="tab-div">
-                    <a href='other_info.html' class="display-sm-12px">Other Information</a>
-                </div>
-            </div>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Email Finder - Welcome</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f5e6d3;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .welcome-container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 90%;
+            width: 400px;
+            min-height: fit-content;
+        }
+        .welcome-title {
+            color: #6b4423;
+            margin-bottom: 1.5rem;
+            font-size: 2.2rem;  /* Increased from 1.8rem */
+        }
+        .welcome-text {
+            color: #8b6b4f;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, 
+                #8b6b4f 0%,
+                #8b6b4f 65%,
+                rgba(139, 107, 79, 0.7) 75%,
+                rgba(139, 107, 79, 0.4) 85%,
+                rgba(139, 107, 79, 0) 100%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline;
+            padding-left: 4px;
+        }
+        .poetic-text {
+            font-family: 'Cormorant Garamond', serif;
+            color: #6b4423;
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            font-style: italic;
+            white-space: pre-line;
+            line-height: 1.8;
+            font-weight: 900;  /* Slightly bolder for better visibility */
+        }
+        .welcome-link {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #8b6b4f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        .welcome-link:hover {
+            background-color: #6b4423;
+            color: white;
+            transform: translateY(-2px);
+        }
+        .logo {
+            width: 80px;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+        .ellipsis-text {
+            font-size: 2rem;
+            color: #8b6b4f;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="welcome-container">
+        <img src="./images/meridian_logo.png" alt="Meridian Logo" class="logo">
+        <h1 class="welcome-title" id="welcomeTitle"></h1>
+        <p class="welcome-text" id="welcomeDescription"></p>
+        <p class="ellipsis-text" id="ellipsis"></p>
+        <p class="poetic-text" id="poeticMessage"></p>
+        <a href="old_index.html" class="welcome-link">Trace the Echoes</a>
+    </div>
+    
+    <script>
+        fetch('json/welcome_text.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('welcomeTitle').textContent = data.title;
+                
+                // Split the description text
+                const description = data.description;
+                const splitPoint = description.lastIndexOf("Click below");
+                const regularText = description.substring(0, splitPoint);
+                const fadingText = description.substring(splitPoint);
+                
+                // Create the elements
+                const descElement = document.getElementById('welcomeDescription');
+                descElement.innerHTML = regularText + 
+                    `<span class="gradient-text">${fadingText}</span>`;
+                
+                document.getElementById('ellipsis').textContent = data.ellipsis;
+                document.getElementById('poeticMessage').textContent = data.Because_I_could_not_stop_for_Death_He_kindly_stopped_for_me;
+            })
+            .catch(error => console.error('Error loading welcome text:', error));
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
